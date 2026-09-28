@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latrova Sociedade Individual de Advocacia | Dra. Adriana Latrova</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container nav">
+            <a href="index.html" class="logo-link">
+                <img src="css/logo-latrova.png" alt="Latrova Advocacia" class="logo-img">
+            </a>
+            <nav>
+                <a href="#sobre" data-content="nav.sobre">Quem Somos</a>
+                <a href="#areas" data-content="nav.areas">Áreas</a>
+                <a href="#contato" class="btn-outline" data-content="nav.contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container hero-content">
+            <h2 class="reveal" data-content="hero.title">Soluções Jurídicas com Experiência, Estratégia e Resultado</h2>
+            <p class="reveal" data-content="hero.subtitle">Atendimento completo, estratégico e focado em resultados reais.</p>
+            <div class="reveal hero-buttons" style="margin-top: 30px;">
+                <a class="btn" href="https://wa.me/5511965024529" target="_blank" data-content="hero.whatsappLabel" data-whatsapp-link>WhatsApp</a>
+                <a class="btn-hero-outline" href="#contato" data-content="hero.ctaLabel">Agendar Consulta</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section reveal">
+        <div class="container">
+            <div style="max-width: 800px; margin: auto; text-align: center;">
+                <h2 data-content="about.title">Dra. Adriana Latrova</h2>
+                <p data-content-html="about.text">Com mais de <strong>10 anos de atuação</strong>, o escritório Latrova Sociedade Individual oferece um
+                    atendimento jurídico assertivo e estratégico, especializado na defesa de <strong>ex-funcionários de
+                        bancos</strong>.</p>
+                <p class="quote"
+                    style="border-left: 4px solid var(--accent); padding-left: 20px; margin-top: 30px; font-style: italic; text-align: left; color: #555;"
+                    data-content="about.quote">
+                    "Você terá ao seu lado uma profissional que entende o seu momento e sabe exatamente como agir para
+                    garantir seus direitos."</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="areas" class="section dark">
+        <div class="container">
+            <h2 class="reveal text-center" data-content="areas.title">Especialidades Estratégicas</h2>
+            <div class="grid" id="areas-grid">
+                <div class="card reveal">
+                    <h3>Direito do Trabalho</h3>
+                    <p>Foco em ações de ex-funcionários de bancos.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Direito Imobiliário</h3>
+                    <p>Assessoria em leilões e contratos.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Família e Sucessões</h3>
+                    <p>Inventários e divórcios com discrição.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Civil e Contratos</h3>
+                    <p>Análise e elaboração estratégica.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Consumidor</h3>
+                    <p>Defesa contra abusos e previdenciário.</p>
+                </div>
+                <div class="card reveal">
+                    <h3>Consultoria</h3>
+                    <p>Prevenção e orientação estratégica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container contato-grid">
+            <div class="reveal contato-info">
+                <h2 data-content="contact.title">Fale Conosco</h2>
+                <p data-content-multiline="contact.address">Rua Voluntários da Pátria, 2525, cjto 82<br>Santana - São Paulo/SP</p>
+                <a class="btn" href="https://wa.me/5511965024529" target="_blank" style="margin-top:20px" data-content="contact.whatsappLabel" data-whatsapp-link>Chamar no
+                    WhatsApp</a>
+            </div>
+
+            <form class="reveal form-contato" id="contact-form" action="https://formsubmit.co/adriana.latrova@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" id="next-url" value="">
+                <input type="text" name="name" id="form-name" placeholder="Seu Nome" required>
+                <input type="email" name="email" id="form-email" placeholder="Seu E-mail" required>
+                <textarea name="message" rows="4" id="form-message" placeholder="Como podemos ajudar?" required></textarea>
+                <button type="submit" class="btn w-full" data-content="contact.formSubmitLabel">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><strong data-content="footer.company">Latrova Sociedade Individual de Advocacia</strong></p>
+        <p data-content="footer.copyright">© 2026</p>
+    </footer>
+
+    <a href="https://wa.me/5511965024529" class="whatsapp-float" target="_blank" data-whatsapp-link>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="30">
+    </a>
+    <script src="js/content.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
