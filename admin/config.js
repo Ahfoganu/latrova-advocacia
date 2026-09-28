@@ -1,12 +1,8 @@
 /**
  * Credenciais do admin.
- * Altere USER e PASSWORD_HASH para trocar usuário/senha.
- *
- * Senha padrão: Latrova@2026
- * Para gerar um novo hash no terminal:
- *   echo -n 'SUA_SENHA' | sha256sum
+ * Gerado pelo painel em Trocar senha.
  */
 window.ADMIN_CONFIG = {
-  user: 'admin',
-  passwordHash: '8deecfc49e09d90338181d700ae3b49ae8ce1bdd7ba55009f0c592ac9c1198a7',
+  user: "adriana.admin",
+  passwordHash: "e971867b1359d4ee1b99553c013023190b69ae4ab4c3ea5baa6c503ab6277550",
 };
